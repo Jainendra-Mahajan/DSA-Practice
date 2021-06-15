@@ -1,3 +1,6 @@
+// TC is O(1);
+// We perform all,operations and delete mid element is done in O(1) time
+
 public class DLL {
     class DLLNode {
         DLLNode prev;
