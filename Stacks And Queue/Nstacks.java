@@ -1,9 +1,11 @@
+// Time complexities of operations push() and pop() is O(1).
+
 class Nstacks {
     
     static class MyStack{
-        int[] arr;
-        int[] top;
-        int[] next;
+        int[] arr;                   // Stores values of stack
+        int[] top;                   // Stores top index of stack
+        int[] next;                 //  Stores next values index 
          
          int n , k;
          int free;            // Free index position
