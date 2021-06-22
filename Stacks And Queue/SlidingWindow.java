@@ -31,8 +31,8 @@ class Compute {
                 idx++;
             }
             
-            while(!q.isEmpty() && q.peek() < (i - K + 1)){ // if the index fits in current window
-                q.remove();     // adding 1 to check for another index
+            while(!q.isEmpty() && q.peek() < (i - K + 1)){ // if the peek index fits in current window
+                q.remove();     // adding 1 to check for another index --> (i - k + 1)
             }
             
             if(arr[i] < 0) q.add(i);
