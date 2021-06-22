@@ -4,7 +4,7 @@
 
 import java.util.*;
 
-class GFG {
+class MinMaxSUm {
     
     static int SumOfKsubArray(int[] arr , int k){
         int sum = 0;
