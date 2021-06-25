@@ -3,17 +3,18 @@
 import java.util.*;
 
 
-class Node {
-    Node left , right;
-    int data;
-    
-    Node(int data){
-        this.left = null;
-        this.right = null;
-        this.data = data;
-    }
-}
+
 class BSTtoMinHeap {
+    public static class Node {
+        Node left , right;
+        int data;
+        
+        Node(int data){
+            this.left = null;
+            this.right = null;
+            this.data = data;
+        }
+    }
     
     public static void convertToMinHeap(Node root){
         
