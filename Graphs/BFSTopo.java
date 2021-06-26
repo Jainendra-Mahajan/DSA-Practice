@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-class Solution
+class BFSTopo
 {
     //Function to return list containing vertices in Topological order. 
     static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) 
