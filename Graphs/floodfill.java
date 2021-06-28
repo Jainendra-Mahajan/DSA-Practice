@@ -1,4 +1,4 @@
-class floodFill {
+class floodFillSol {
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
             
         int m = image.length;
