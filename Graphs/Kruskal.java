@@ -1,5 +1,5 @@
 /* 
-Select minumum weight edge and add to the ans.
+Select minumum weight edge and add to the MST.
 
 Used rank and disjoint set concept by calculating union and 
 finding parent.
