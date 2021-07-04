@@ -1,4 +1,4 @@
-// User function Template for Java
+// Used Knapsack and subsetsum concept here.
 
 class equalSum{
     static int equalPartition(int n, int arr[])
