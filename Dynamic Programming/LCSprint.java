@@ -2,7 +2,7 @@
 // Then from last check if character are equal.
 // if Equal then move to upper diagonal because it was came from i-- and j--(1 + dp[i - 1][j - 1].
 // else go to that index which is max.
-import java.io.*;
+
 
 class LongestCommonSubsequence
 {
