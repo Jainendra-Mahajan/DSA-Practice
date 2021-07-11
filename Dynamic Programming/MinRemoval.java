@@ -2,7 +2,7 @@
 //SC is O(N).
 // Binary search approach.
 
-
+import java.util.*;
 class MINMAXRemoval{
 	
     static int removals(int arr[], int n, int k){
