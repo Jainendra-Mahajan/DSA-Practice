@@ -1,19 +1,15 @@
 /*TC is O(N) */
 
-import java.io.*;
-
-public class Node{
-    int data , lis;           // lis stores the answer works as Dp here 
-    Node left , right;
-    
-    public Node(int data){
-        this.data = data;
-        lis = 0;
+class LIS {
+    static class Node{
+        int data , lis;           // lis stores the answer works as Dp here 
+        Node left , right;
+        
+        public Node(int data){
+            this.data = data;
+            lis = 0;
+        }
     }
-}
-
-class GFG {
-    
     static int lis(Node root){
         
         if(root == null)return 0;
