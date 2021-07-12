@@ -1,6 +1,3 @@
-// Java program to find winner of game
-// if player can pick 1, x, y coins
-
 
 public class CoinGame {
 	
