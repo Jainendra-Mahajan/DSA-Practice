@@ -1,6 +1,6 @@
 // Java program to find winner of game
 // if player can pick 1, x, y coins
-import java.util.Arrays;
+
 
 public class CoinGame {
 	
