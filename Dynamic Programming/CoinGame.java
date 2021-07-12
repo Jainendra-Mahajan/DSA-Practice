@@ -1,7 +1,6 @@
-
 public class CoinGame {
 	
-	// To find winner of game
+
 	static boolean findWinner(int x, int y, int n)
 	{
 	    boolean[] dp = new boolean[n + 1];
