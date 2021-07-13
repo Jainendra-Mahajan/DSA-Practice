@@ -3,7 +3,7 @@
 // If i choose 1st value then both are playing optimally so 2nd player will provide me that array from which i will be forced to choose
 // the min value in next chance 
 // similar is for jth value if i choose.
-
+import java.util.*;
 class OptimalGame
 {
      static long[][] dp;
